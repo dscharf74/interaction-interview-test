@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans';
+  background-color: lightgray;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +41,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.timeline-wrapper {
+  display:flex;
+}
+
+.timestamp-container {
+  width: 10%;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: white;
+}
+
+.timeline-card {
+  width: 100%;
+}
+
+.timeline-card-inner {
+  margin: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.eval-container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  font-size: small;
+}
+
+.title-container {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: large;
+}
+
+.subtitle {
+  font-size: small;
+}
+
+.judgement-icon {
+  position: absolute;
+  right: 3%;
+}
+
+.notes {
+  font-size: small;
 }
